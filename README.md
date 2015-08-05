@@ -6,8 +6,8 @@ Variance
 
 The [variance](https://en.wikipedia.org/wiki/variance) for a [Rayleigh](https://en.wikipedia.org/wiki/Rayleigh_distribution) random variable is
 
-<div class="equation" align="center" data-raw-text="\operatorname{}\left[ X \right] = " data-equation="eq:variance">
-	<img src="" alt="variance for a Rayleigh distribution.">
+<div class="equation" align="center" data-raw-text="\operatorname{Var}\left( X \right) = \frac{4 - \pi}{2} \sigma^2" data-equation="eq:variance">
+	<img src="https://cdn.rawgit.com/distributions-io/rayleigh-variance/e837487094004e27ea4ed58c980e416e98c47fed/docs/img/eqn.svg" alt="Variance for a Rayleigh distribution.">
 	<br>
 </div>
 
@@ -252,7 +252,7 @@ var sigma,
 // Plain arrays...
 sigma = new Array( 10 );
 for ( i = 0; i < sigma.length; i++ ) {
-	sigma[ i ] = i;
+	sigma[ i ] = i + 1;
 }
 out = variance( sigma );
 
@@ -283,7 +283,7 @@ out = variance( sigma, {
 // Typed arrays...
 sigma = new Float64Array( 10 );
 for ( i = 0; i < sigma.length; i++ ) {
-	sigma[ i ] = i;
+	sigma[ i ] = i + 1;
 }
 out = variance( sigma );
 
