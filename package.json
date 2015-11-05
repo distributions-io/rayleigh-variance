@@ -1,7 +1,7 @@
 {
   "name": "distributions-rayleigh-variance",
   "version": "0.0.0",
-  "description": "Rayleigh distribution mean.",
+  "description": "Rayleigh distribution variance.",
   "author": {
     "name": "Philipp Burckhardt",
     "email": "pburckhardt@outlook.com"
@@ -20,7 +20,7 @@
   "main": "./lib",
   "repository": {
     "type": "git",
-    "url": "git://github.com/compute-io/rayleigh-variance.git"
+    "url": "git://github.com/distributions-io/rayleigh-variance.git"
   },
   "keywords": [
     "distributions.io",
@@ -28,18 +28,19 @@
     "probability",
     "statistics",
     "stats",
-    "expected value",
-    "expectation",
-    "mean"
+    "standard deviation",
+    "dispersed",
+    "spread",
+    "continuous"
   ],
   "bugs": {
-    "url": "https://github.com/compute-io/rayleigh-variance/issues"
+    "url": "https://github.com/distributions-io/rayleigh-variance/issues"
   },
   "dependencies": {
     "compute-array-constructors": "^1.0.0",
     "dstructs-matrix": "^2.0.0",
     "utils-deep-get": "^1.0.0",
-    "utils-deep-set": "^1.0.1", 
+    "utils-deep-set": "^1.0.1",
     "validate.io-number-primitive": "^1.0.0",
     "validate.io-nonnegative-integer": "^1.0.0",
     "validate.io-string-primitive": "^1.0.0",

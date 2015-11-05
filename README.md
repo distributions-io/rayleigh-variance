@@ -103,7 +103,10 @@ var sigma = [
 	{'x':[9,4]}
 ];
 
-var out = variance( sigma, 'x|1', '|' );
+var out = variance( sigma, {
+	'path': 'x|1',
+	'sep': '|'
+});
 /*
 	[
 		{'x':[9,~0.107]},
